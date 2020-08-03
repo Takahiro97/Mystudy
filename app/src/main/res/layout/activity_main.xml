@@ -23,7 +23,7 @@
         android:layout_marginTop="68dp"
         android:layout_marginBottom="239dp"
         android:onClick="sendMessage"
-        android:text="change"
+        android:text="@string/change"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,7 +41,8 @@
         app:layout_constraintBottom_toTopOf="@+id/dataText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/saveButton"
@@ -52,7 +53,7 @@
         android:layout_marginTop="354dp"
         android:layout_marginBottom="105dp"
         android:onClick="saveMessage"
-        android:text="SAVE"
+        android:text="@string/save"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/readButton"
         app:layout_constraintHorizontal_bias="0.9"
@@ -70,12 +71,11 @@
         android:layout_marginRight="73dp"
         android:layout_marginBottom="105dp"
         android:onClick="readMessage"
-        android:text="Read"
+        android:text="@string/read"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/saveButton"
-        app:layout_constraintTop_toBottomOf="@+id/dataEdit"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/dataEdit" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

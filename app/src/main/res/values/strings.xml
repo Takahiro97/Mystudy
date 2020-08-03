@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">My Data</string>
     <string name="edit_message">Enter a message</string>
+    <string name="read">Read</string>
+    <string name="save">SAVE</string>
+    <string name="change">change</string>
 </resources>
